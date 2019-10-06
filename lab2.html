@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#" style="color: #ffffff; margin-left: 200px">TRUNG HIEU</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Lab
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="lab1.html">Lab1</a>
+                        <a class="dropdown-item" href="lab2.html">Lab2</a>
+                        <a class="dropdown-item" href="#">Lab3</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <ul class=sidebar-home>
+                <li><a href="lab1.html"><img class="image-padding" src="images/iconDefault.png" width="25">Lab1</a></li>
+                <li><a href="#"><img class="image-padding" src="images/iconDefault.png" width="25">Lab2</a></li>
+                <li><a href="#"><img class="image-padding" src="images/iconDefault.png" width="25">Lab3</a></li>
+                <li><a href="#"><img class="image-padding" src="images/iconDefault.png" width="25">Lab4</a></li>
+                <li><a href="#"><img class="image-padding" src="images/iconDefault.png" width="25">Lab5</a></li>
+            </ul>
+        </div>
+        <div>
+        </div>
+        <div class="main_content">
+            <div class="info">
+                <h3 style="color: red; text-align: center; margin-left: -100px">Lab 2</h3>
+                <button class="tablink-lab2" onclick="openPage('Requiment', this, '#ffffff')"
+                    id="defaultOpen">Requirements</button>
+                <button class="tablink-lab2" onclick="openPage('Scenario', this, '#ffffff')">Scenario</button>
+                <button class="tablink-lab2" onclick="openPage('Design', this, '#ffffff')">Design</button>
+                <button class="tablink-lab2" onclick="openPage('Implement', this, '#ffffff')">Implement</button>
+                <div id="Requiment" class="tabcontent">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="color: black"><b>STT</b></th>
+                                <th scope="col" style="color: black">Yêu cầu</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Tạo ra một user scenario</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Chọn 1 bước trong user scenario để thiết kế 1 form giao diện Web trên công cụ thiết
+                                    kế đã chọn. Sau đó tạo ra file html tương ứng cho thiết kế này.
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Upload lên Azure: trong file html có chèn hình ảnh của user scenario ở (1) và đường
+                                    dẫn của file thiết kế ở (2).
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="Scenario" class="tabcontent">
+                    <div role="tabpanel" class="tab-pane" id="week2"></div>
+
+                </div>
+
+
+                <div id="Design" class="tabcontent">
+                    <div role="tabpanel" class="tab-pane" id="week2"></div>
+
+                </div>
+
+                <div id="Implement" class="tabcontent">
+                    <div role="tabpanel" class="tab-pane" id="week2">
+                            <div class="col-md-4 " style="text-align: center;">
+                                <button class="btn btn-deep-orange " type="button" style="width: 200px;
+                                     font-size: 15px; padding-left: 8px; height: 42px;
+                                    color: #ffffff; background: #179EFF;
+                                    border-radius: 5px ">
+                                    <img src="imagesLab2/cart.png" alt="cart" width="20px" 
+                                    style="margin-right: 5px;">
+                                    GIỎ HÀNG
+                                    </button>
+                                    </div>
+                                </div>
+
+                        <div class="container">
+                            <div class="row justify-content-center">
+
+                                <div class="col-md-3">
+                                    <div class="card" style="width: 15rem;">
+                                        <img class="card-img-top" src="imagesLab2/productIPhone.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Điện Thoại iPhone XR 64GB - Chính Hãng
+                                            </p>
+                                            <img src="imagesLab2/productPrice1.png" style="margin-left: -12px" width="150px" alt="">
+                                            <button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
+                                            color: #ffffff; background: #FF6639; margin-left:40px ">
+                                            Mua ngay
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="card" style="width: 15rem;">
+                                        <img class="card-img-top" src="imagesLab2/product.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Sữa Bột Full Cream Devondale (1Kg)
+                                            </p>
+                                            <img src="imagesLab2/productPrice.png" style="margin-left: -12px" width="150px" alt="">
+                                            <button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
+                                            color: #ffffff; background: #FF6639; margin-left:40px ">
+                                            Mua ngay
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-3">
+                                    <div class="card" style="width: 15rem;">
+                                        <img class="card-img-top" src="imagesLab2/productTV.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                            Smart Tivi Samsung 49 inch UHD 4K 
+                                            </p>
+                                            <img src="imagesLab2/productPrice2.png" style="margin-left: -12px" width="150px" alt="">
+                                            <button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
+                                            color: #ffffff; background: #FF6639; margin-left:40px ">
+                                            Mua ngay
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-md-3">
+                                    <div class="card" style="width: 15rem;">
+                                        <img class="card-img-top" src="imagesLab2/productCetaphil.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Sữa Rửa Mặt Cetaphil Gentle Skin Cleaner
+                                            </p>
+                                            <img src="imagesLab2/productPrice3.png" style="margin-left: -12px" width="150px" alt="">
+                                            <button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
+                                            color: #ffffff; background: #FF6639; margin-left:40px ">
+                                            Mua ngay
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="js/myScript.js"></script>
+</body>
+
+</html>
