@@ -280,6 +280,26 @@ body, html {
 	background:#179EFF;
 }
 
+.nav-item-lab3 a:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-bottom: 2px solid #179EFF;
+}
+
+.nav-tabs li a{
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  background: transparent;
+}
+
+.nav-tabs li a:hover {
+  background-color:transparent;
+}
+
 
 /*===========================
   Footer

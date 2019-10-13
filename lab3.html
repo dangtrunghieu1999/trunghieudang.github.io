@@ -60,531 +60,196 @@
       </ul>
     </div>
     <div>
-    </div>
-    <div class="main_content">
-      <div class="info">
-        <h3 style="color: red; text-align: center; margin-left: -100px">Lab 3</h3>
-        <button class="tablink" onclick="openPage('Requiment', this, '#ffffff')" id="defaultOpen">Requirements</button>
-        <button class="tablink" onclick="openPage('Design', this, '#ffffff')">Design</button>
-        <button class="tablink" onclick="openPage('Implement', this, '#ffffff')">Implement</button>
-        <div id="Requiment" class="tabcontent">
-          <table class="table table-bordered">
-            <thead>
-              <tr>
-                <th scope="col" style="color: black"><b>STT</b></th>
-                <th scope="col" style="color: black">Yêu cầu</th>
 
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Chọn một phần mềm bất kỳ để thực hiện việc thiết kế trong suốt môn học</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Chọn 1 đối tượng bất kỳ trong thế giới thực,
-                  ví dụ như sinh viên, môn học, giảng viên,... để thiết
-                  kế trên phần mềm (1) một chức năng trên web để thêm,
-                  sửa, xóa, tìm kiếm cho đối tượng đó.</td>
 
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Sau đó chuyển toàn bộ giao diện của phần 2 vào
-                  html</td>
-
-              </tr>
-
-              <tr>
-                <th scope="row">4</th>
-                <td>Upload tất cả lên Github trong menu Lab1 theo thứ
-                  tự: Thiết kế (link tới file thiết kế ở phần 2) và Hiện
-                  thực (link tới file html)</td>
-
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div id="Design" class="tabcontent">
-          <div role="tabpanel" class="tab-pane" id="week1"></div>
-
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" 
-                style="color: #179EFF">Thiết
-                  kế trên giấy</a>
-              </div>
-
-              <div class="card-body-design">
-                <div class="card-left">
-                  <img src="images/designPencil.JPG" alt="" width="400px">
+      <!-- main content -->
+      <div class="main_content">
+        <div class="info">
+          <ul class="nav" role="tablist">
+            <li class="nav-item-lab3">
+              <a class="nav-link active" href="#week1" role="tab" data-toggle="tab"
+                style="color: #179EFF;">Exercises1</a></li>
+            <li class="nav-item-lab3">
+              <a class="nav-link" href="#week2" role="tab" data-toggle="tab" style="color: #179EFF;">Exercises 2</a>
+            </li>
+          </ul>
+          <br>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="week1">
+              <ul class="nav" role="tablist">
+                <li class="nav-item-lab3"><a class="nav-link active" href="#week11" role="tab" data-toggle="tab"
+                  style="color: #179EFF;">Requirement</a></li>
+                <li class="nav-item-lab3"><a class="nav-link" href="#week21" role="tab" data-toggle="tab"
+                    style="color: #179EFF;">Design</a>
+                </li>
+                <li class="nav-item-lab3"><a class="nav-link" href="#week31" role="tab" data-toggle="tab"
+                    style="color: #179EFF;">Implementation</a></li>
+              </ul>
+              <br> <br>
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="week11">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th data-toggle="tooltip" title="Số thứ tự">STT</th>
+                        <th>Nội dung yêu cầu</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Thiết kế một trang Web đơn giản sử dụng mẫu F-pattern
+                          ==> chuyển sang html.</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Upload lên azure.</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <div class="card-right">
-                  <h4 style="color:#179EFF">Đường dẫn download file tải đây</h4>
-                  <a href="images/designPencil.JPG.zip"><button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
-                      color: #ffffff; background: #FF6639;">
-                      <i class="fa fa-mail-reply"></i> Download
-                    </button></a>
-                </div>
-              </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" style="color: #179EFF">Chức
-                    năng quản lý sản phẩm</a>
-                </div>
-                <div class="card-body-design">
-                  <div class="card-left">
-                    <img src="images/productManager.png" alt="" width="400px">
+                <div role="tabpanel" class="tab-pane" id="week21">
+                  <div class="card">
+                    <div class="card-header" style="width: 1300px;">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"
+                        style="color: #179EFF">Thiết kế trên giấy</a>
+                    </div>
+                    <div class="card-body-design">
+                      <div class="card-left">
+                        <img src="imagesLab2/designPencil.JPG" alt="" width="500px">
+                      </div>
+                      <div class="card-right">
+                        <h4 style="color:#179EFF">Đường dẫn download file tải đây</h4>
+                        <a href="imagesLab2/designPencil.JPG.zip"><button class="btn btn-deep-orange " type="button"
+                            style="width: 120px; font-size: 15px; padding-left: 8px;
+                                color: #ffffff; background: #FF6639;">
+                            <i class="fa fa-mail-reply"></i> Download
+                          </button></a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="card-right">
-                    <h4 style="color:#179EFF">Đường dẫn download file tải đây</h4>
-                    <a href="images/productManager.zip"><button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
-                        color: #ffffff; background: #FF6639;">
-                        <i class="fa fa-mail-reply"></i> Download
-                      </button></a>
-                  </div>
-                </div>
-              </div>
 
-              <div class="card">
-                <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" 
-                  style="color: #179EFF">Chức năng thêm sản phẩm</a>
-                </div>
-                <div class="card-body-design">
-                  <div class="card-left">
-                    <img src="images/productAdd.png" alt="" width="600px">
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"
+                        style="color: #179EFF">Thiết kế figma</a>
+                    </div>
+                    <div class="card-body-design">
+                      <div class="card-left">
+                        <img src="imagesLab2/designLab2.png" alt="" width="500px">
+                      </div>
+                      <div class="card-right">
+                        <h4 style="color:#179EFF">Đường dẫn download file tải đây</h4>
+                        <a href="imagesLab2/Lab2.fig.zip"><button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
+                                color: #ffffff; background: #FF6639;">
+                            <i class="fa fa-mail-reply"></i> Download
+                          </button></a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="card-right">
-                    <h4 style="color:#179EFF">Đường dẫn download file tải đây</h4>
-                    <a href="images/productAdd.zip"><button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
-                        color: #ffffff; background: #FF6639;">
-                        <i class="fa fa-mail-reply"></i> Download
-                      </button></a>
-                  </div>
-                </div>
-              </div>
 
-
-              <div class="card">
-                <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" 
-                  style="color: #179EFF">Chức năng cập nhập sản phẩm</a>
-                </div>
-                <div class="card-body-design">
-                  <div class="card-left">
-                    <img src="images/productUpdate.png" alt="" width="600px">
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"
+                        style="color: #179EFF">Download tất cả file tại đây</a>
+                    </div>
+                    <div class="card-body-design">
+                      <div class="card-left">
+                        <img src="images/downloadLogo.jpg" alt="" width="300px">
+                      </div>
+                      <div class="card-right">
+                        <h4 style="color:#179EFF">Đường dẫn download file tải đây</h4>
+                        <a href="imagesLab2/17130065_design.zip"><button class="btn btn-deep-orange " type="button"
+                            style="width: 120px; font-size: 15px; padding-left: 8px;
+                                    color: #ffffff; background: #FF6639;">
+                            <i class="fa fa-mail-reply"></i> Download
+                          </button></a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="card-right">
-                    <h4 style="color:#179EFF">Đường dẫn download file tải đây</h4>
-                    <a href="images/productUpdate.zip"><button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
-                        color: #ffffff; background: #FF6639;">
-                        <i class="fa fa-mail-reply"></i> Download
-                      </button></a>
+                  
                   </div>
+                  <div role="tabpanel" class="tab-pane" id="week31">
+                    <body>
+                      <iframe src="lab3/indexLab3.html" frameborder="0" 
+                    scrolling="yes" seamless="seamless" 
+                    style="display:block; width:1400; height:100vh;" width="1400px"></iframe>
+                    </body>
                 </div>
               </div>
-
-
-              <div class="card">
-                <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" 
-                  style="color: #179EFF">Chức
-                    năng xoá sản phẩm</a>
-                </div>
-                <div class="card-body-design">
-                  <div class="card-left">
-                    <img src="images/productDelete.png" alt="" width="600px">
-                  </div>
-                  <div class="card-right">
-                    <h4 style="color:#179EFF">Đường dẫn download file tải đây</h4>
-                    <a href="images/productDelete.zip"><button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
-                        color: #ffffff; background: #FF6639;">
-                        <i class="fa fa-mail-reply"></i> Download
-                      </button></a>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="card">
-                <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" 
-                  style="color: #179EFF">Download tất cả file tại đây</a>
-                </div>
-                <div class="card-body-design">
-                  <div class="card-left">
-                    <img src="images/downloadLogo.jpg" alt="" width="300px">
-                  </div>
-                  <div class="card-right">
-                    <h4 style="color:#179EFF">Đường dẫn download file tải đây</h4>
-                    <a href="images/17130065_design.zip"><button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
-                        color: #ffffff; background: #FF6639;">
-                        <i class="fa fa-mail-reply"></i> Download
-                      </button></a>
-                  </div>
-                </div>
-              </div>
-              
-
-
             </div>
-          </div>
-        <!-- </div> -->
 
-        <div id="Implement" class="tabcontent">
-          <div role="tabpanel" class="tab-pane" id="week1">
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" style="color: #179EFF">Chức
-                    năng quản lý sản phẩm</a>
-                </div>
-                <div id="collapseTwo" class="collapse show" data-parent="#accordion">
-                  <div class="card-body">
-                    <br>
-                    <div class="container-fluid">
-                      <div class="row">
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control form-control" style="height: 40px;"
-                            placeholder="Nhập thông tin tìm kiếm..." autofocus>
-                        </div>
+              <div role="tabpanel" class="tab-pane" id="week2">
+                <!-- <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item-lab3"><a class="nav-link active" href="#week12" role="tab"
+                      data-toggle="tab">Requirement</a></li>
+                  <li class="nav-item-lab3"><a class="nav-link" href="#week22" role="tab" data-toggle="tab">Design</a></li>
+                  <li class="nav-item-lab3"><a class="nav-link" href="#week32" role="tab"
+                      data-toggle="tab">Implementation</a>
+                  </li>
+                </ul> -->
 
-                        <div class="col-sm-4">
-                          <button type="button" class="btn btn-secondary"
-                            style="height: 40px; background-color: #FF6639;">
-                            <i class="fa fa-search"></i> Tìm kiếm
-                          </button>
-                          <button type="button" class="btn btn-secondary"
-                            style="height: 40px; background-color: #FF6639">
-                            <i class="fa fa-plus"></i> Thêm mới
-                          </button>
-                        </div>
-                      </div>
-                      <br>
-                      <table class="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th data-toggle="tooltip" title="Số thứ tự">STT</th>
-                            <th>Giá SP</th>
-                            <th>Tên SP</th>
-                            <th>Danh mục</th>
-                            <th>Thao tác</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>15.000đ</td>
-                            <td>Móc Khóa Cao Su Ban Nhạc BTS - Gấu Koya</td>
-                            <td>Đồ Chơi Mẹ Và Em Bé</td>
-                            <td>
-                              <button class="btn btn-lg btn-info mr-1" type="submit" value="" data-toggle="tooltip"
-                                title="Thông tin" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                 height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/alert.png" alt="alert" height="25">
-                              </button>
-                              <button class="btn btn-lg btn-primary mr-1 " type="submit" value="" data-toggle="tooltip"
-                                title="Cập nhật môn học" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                 height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/update.png" alt="update" height="25">
-                              </button>
-                              <button class="btn btn-lg btn-danger " type="submit" value="" value=""
-                                data-toggle="tooltip" title="Xóa môn học" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                 height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/delete.png" alt="delete" height="25">
-                              </button>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>100.000đ</td>
-                            <td>iPad WiFi 32GB New 2018 - Hàng Chính Hãng</td>
-                            <td>Điện Thoại - Máy Tính Bảng</td>
-                            <td>
-                              <button class="btn btn-lg btn-info mr-1" type="submit" value="" data-toggle="tooltip"
-                                title="Thông tin" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                   height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/alert.png" alt="alert" height="25">
-                              </button>
-                              <button class="btn btn-lg btn-primary mr-1 " type="submit" value="" data-toggle="tooltip"
-                                title="Cập nhật môn học" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                   height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/update.png" alt="update" height="25">
-                              </button>
-                              <button class="btn btn-lg btn-danger " type="submit" value="" value=""
-                                data-toggle="tooltip" title="Xóa môn học" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                   height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/delete.png" alt="delete" height="25">
-                              </button>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>200.000đ</td>
-                            <td>Đồng Hồ Thông Minh Apple Watch Series 3 GPS Aluminum Case With Sport Band</td>
-                            <td>Thiết Bị Số - Phụ Kiện Số</td>
-                            <td>
-                              <button class="btn btn-lg btn-info mr-1" type="submit" value="" data-toggle="tooltip"
-                                title="Thông tin" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                   height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/alert.png" alt="alert" height="25">
-                              </button>
-                              <button class="btn btn-lg btn-primary mr-1 " type="submit" value="" data-toggle="tooltip"
-                                title="Cập nhật môn học" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                   height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/update.png" alt="update" height="25">
-                              </button>
-                              <button class="btn btn-lg btn-danger " type="submit" value="" value=""
-                                data-toggle="tooltip" title="Xóa môn học" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                   height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/delete.png" alt="delete" height="25">
-                              </button>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>120.000đ</td>
-                            <td>Nón Bảo Hiểm 3/4 Đầu Napoli N099 (Size L)</td>
-                            <td>Ô Tô - Xe Máy - Xe Đạp</td>
-                            <td>
-                              <button class="btn btn-lg btn-info mr-1" type="submit" value="" data-toggle="tooltip"
-                                title="Thông tin" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                   height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/alert.png" alt="alert" height="25">
-                              </button>
-                              <button class="btn btn-lg btn-primary mr-1 " type="submit" value="" data-toggle="tooltip"
-                                title="Cập nhật môn học" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                   height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/update.png" alt="update" height="25">
-                              </button>
-                              <button class="btn btn-lg btn-danger " type="submit" value="" value=""
-                                data-toggle="tooltip" title="Xóa môn học" style="padding-right: 10px; padding-left: 10px; width: 50px;
-                                   height: 50px; background-color: #ffffff; border-color: #ffffff ">
-                                <img src="images/delete.png" alt="delete" height="25">
-                              </button>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <ul class="pagination" style="float: right; margin-bottom: 20px;">
-                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                      </ul>
-                    </div>
+                <ul class="nav" role="tablist">
+                  <li class="nav-item-lab3"><a class="nav-link active" href="#week12" role="tab" data-toggle="tab"
+                    style="color: #179EFF;">Requirement</a></li>
+                  <li class="nav-item-lab3"><a class="nav-link" href="#week22" role="tab" data-toggle="tab"
+                      style="color: #179EFF;">Design</a>
+                  </li>
+                  <li class="nav-item-lab3"><a class="nav-link" href="#week32" role="tab" data-toggle="tab"
+                      style="color: #179EFF;">Implementation</a></li>
+                </ul>
+                <br> <br>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="week12">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th data-toggle="tooltip" title="Số thứ tự">STT</th>
+                          <th>Nội dung yêu cầu</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>Thiết kế một trang Web sử dụng mẫu Z-pattern ==>
+                            chuyển sang html Upload lên Azure.</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Upload lên azure.</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
                   </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapsethree"
-                    style="color: #179EFF">Chức năng thêm sản phẩm</a>
-                </div>
-                <div id="collapsethree" class="collapse show" data-parent="#accordion">
-                  <div class="card-body">
-                    <div class="container" style="margin-top: 70px; margin-left: 330px;">
-                      <h2 style="margin-left: 95px; font-weight: bold; font-size: 30px; 
-                        text-transform: uppercase; color: #231C1C;">
-                        Thêm sản phẩm</h2>
-                      <h5 style="font-weight: bold; color: #231C1C;">
-                        <i class="fa fa-pencil"></i> Thông tin sản phẩm
-                      </h5>
-                      <div class="row mb-1">
-                        <div class="col-sm-2" style="color: #5C5C5C;">Tên sản phẩm:</div>
-                        <div class="col-sm-4">
-                          <input type="text" name="name1" placeholder="Nhập tên sản phẩm" value="" style="width: 250px; border: 1px solid #5C5C5C;
-                             height: 40px;border-color: #5C5C5C;">
-                        </div>
-                      </div>
-
-                      <div class="row mb-1">
-                        <div class="col-sm-2" style="color: #5C5C5C;">Danh mục:</div>
-                        <div class="col-sm-4">
-                          <input type="text" name="name1" placeholder="Danh mục" value="" style="width: 250px; height: 40px; border: 1px solid #5C5C5C;
-                            border-color: #5C5C5C;">
-                        </div>
-                      </div>
-
-                      <div class="row mb-1">
-                        <div class="col-sm-2" style="color: #5C5C5C;">Giá gốc:</div>
-                        <div class="col-sm-4">
-                          <input type="text" name="imgURL1" placeholder="Nhập giá gốc" value=""
-                            style="width: 250px; height: 30px; border: 1px solid #5C5C5C;">
-                        </div>
-                      </div>
-
-                      <div class="row mb-1">
-                        <div class="col-sm-2" style="color: #5C5C5C;">Giá khuyến mãi:</div>
-                        <div class="col-sm-4">
-                          <input type="text" name="imgURL1" placeholder="Nhập giá khuyến mãi" value="" style="width: 250px; height: 40px; border: 1px solid #5C5C5C;
-                            border-color: #5C5C5C;">
-                        </div>
-                      </div>
-
-                      <div class="row mb-1">
-                        <div class="col-sm-2" style="color: #5C5C5C;">Mô tả chi tiết:</div>
-                        <div class="col-sm-4">
-                          <input class="input-field" type="text" name="imgURL1" placeholder="Nhập mô tả chi tiết"
-                            value="" style="width: 250px; height: 40px; border: 1px solid #5C5C5C;
-                            border-color: #5C5C5C;">
-                        </div>
-                      </div>
-
-                      <div class="row mb-3 mt-3">
-                        <div class="col-sm-8" style="margin-left: 38px;">
-                          <a href=""><button class="btn btn-deep-orange" type="submit" style="width: 120px; font-size: 15px; 
-                              color: #ffffff;background: #FF6639;">
-                              <i class="fa fa-plus-circle"></i> Thêm
-                            </button></a>
-                          <button class="btn btn-deep-orange " type="reset" style="width: 120px; font-size: 15px; padding-left: 8px;
-                             color: #ffffff ;background: #FF6639;">
-                            <i class="fa fa-close"></i> Xóa form
-                          </button>
-                          <a href=""><button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
-                              color: #ffffff; background: #FF6639;">
-                              <i class="fa fa-mail-reply"></i> Quay lại
-                            </button></a>
-                        </div>
-                      </div>
-                    </div>
-                    <br>
+                  <div role="tabpanel" class="tab-pane" id="week22">
+                    
                   </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapsefour" style="color: #179EFF">Chức
-                    năng cập nhập sản phẩm</a>
-                </div>
-                <div id="collapsefour" class="collapse show" data-parent="#accordion">
-                  <div class="card-body">
-                    <div class="container" style="margin-top: 70px; margin-left: 330px;">
-                      <h2 style="margin-left: 70px; font-weight: bold; font-size: 30px;
-                         text-transform: uppercase; color: #231C1C;">Cập
-                        nhật sản phẩm</h2>
-                      <h6 style="font-weight: bold; color: #231C1C;">
-                        <i class="fa fa-pencil"></i> Thông tin sản phẩm
-                      </h6>
-                      <div class="row mb-1">
-                        <div class="col-sm-2" style="color: #5C5C5C;">Tên sản phẩm:</div>
-                        <div class="col-sm-4">
-                          <input type="text" name="name1" placeholder="Nhập tên sản phẩm" value="" style="width: 250px; border: 1px solid #5C5C5C;
-                             height: 40px;border-color: #5C5C5C;">
-                        </div>
-                      </div>
+                  <div role="tabpanel" class="tab-pane" id="week32">
+                  <p>dangtrunghieu</p>
 
-                      <div class="row mb-1">
-                        <div class="col-sm-2" style="color: #5C5C5C;">Danh mục:</div>
-                        <div class="col-sm-4">
-                          <input type="text" name="name1" placeholder="Danh mục" value="" style="width: 250px; height: 40px; border: 1px solid #5C5C5C;
-                            border-color: #5C5C5C;">
-                        </div>
-                      </div>
+                    
+                    
 
-                      <div class="row mb-1">
-                        <div class="col-sm-2" style="color: #5C5C5C;">Giá gốc:</div>
-                        <div class="col-sm-4">
-                          <input type="text" name="imgURL1" placeholder="Nhập giá gốc" value=""
-                            style="width: 250px; height: 30px; border: 1px solid #5C5C5C;">
-                        </div>
-                      </div>
 
-                      <div class="row mb-1">
-                        <div class="col-sm-2" style="color: #5C5C5C;">Giá khuyến mãi:</div>
-                        <div class="col-sm-4">
-                          <input type="text" name="imgURL1" placeholder="Nhập giá khuyến mãi" value="" style="width: 250px; height: 40px; border: 1px solid #5C5C5C;
-                            border-color: #5C5C5C;">
-                        </div>
-                      </div>
 
-                      <div class="row mb-1">
-                        <div class="col-sm-2" style="color: #5C5C5C;">Mô tả chi tiết:</div>
-                        <div class="col-sm-4">
-                          <input class="input-field" type="text" name="imgURL1" placeholder="Nhập mô tả chi tiết"
-                            value="" style="width: 250px; height: 40px; border: 1px solid #5C5C5C;
-                            border-color: #5C5C5C;">
-                        </div>
-                      </div>
-                      <div class="row mb-3 mt-3">
-                        <div class="col-sm-8" style="margin-left: 38px;">
-                          <a href=""><button class="btn btn-deep-orange" type="submit" style="width: 120px; font-size: 15px; 
-                              color: #ffffff;background: #FF6639;">
-                              <i class="fa fa-plus-circle"></i> Thêm
-                            </button></a>
-                          <button class="btn btn-deep-orange " type="reset" style="width: 120px; font-size: 15px; padding-left: 8px;
-                             color: #ffffff ;background: #FF6639;">
-                            <i class="fa fa-close"></i> Xóa form
-                          </button>
-                          <a href=""><button class="btn btn-deep-orange " type="button" style="width: 120px; font-size: 15px; padding-left: 8px;
-                              color: #ffffff; background: #FF6639;">
-                              <i class="fa fa-mail-reply"></i> Quay lại
-                            </button></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+             
 
-              <div class="card">
-                <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapsefive" style="color: #179EFF">Chức
-                    năng xóa sản phẩm</a>
-                </div>
-                <div id="collapsefive" class="collapse show" data-parent="#accordion">
-                  <div class="card-body">
-                    <h5>Hãy click vào button xóa để nhận được cảnh báo.</h5>
-                    <!-- Button to Open the Modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"
-                      style="background: red;">
-                      <i class="fa fa-trash-o"></i> Xóa
-                    </button>
 
-                    <!-- The Modal -->
-                    <div class="modal" id="myModal">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-
-                          <!-- Modal Header -->
-                          <div class="modal-header">
-                            <h4 class="modal-title" style="padding-left: 160px">Thông báo</h4>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                          </div>
-
-                          <!-- Modal body -->
-                          <div class="modal-body" style="padding-left: 180px">Xoá sản phẩm</div>
-
-                          <!-- Modal footer -->
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal"
-                              style="padding: 10px auto;">
-                              <i class="fa fa-close"></i> Huỷ
-                            </button>
-                            <button type="button" class="btn btn-danger" data-dismiss="modal"
-                              style="width: 110px; background: green;">
-                              <i class="fa fa-check"></i> Đồng ý
-                            </button>
-                          </div>
-
-                        </div>
-                      </div>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
             </div>
+
+
+            <!-- main content -->
           </div>
         </div>
-      </div>
-      <script src="js/myScript.js"></script>
+
 </body>
 
 </html>
