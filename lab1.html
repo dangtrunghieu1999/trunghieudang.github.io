@@ -63,16 +63,16 @@
     </div>
     <div class="main_content">
       <div class="info">
-        <h3 style="color: red; text-align: center; margin-left: -100px">Lab 1</h3>
-        <button class="tablink" onclick="openPage('Requiment', this, '#ffffff')" id="defaultOpen">Requirements</button>
-        <button class="tablink" onclick="openPage('Design', this, '#ffffff')">Design</button>
-        <button class="tablink" onclick="openPage('Implement', this, '#ffffff')">Implement</button>
+        <h3 style="color: #000000; text-align: center; margin-left: -100px">Lab 1</h3>
+        <button class="tablink" onclick="openPage('Requiment', this, '#F1F1F1')" id="defaultOpen">Requirements</button>
+        <button class="tablink" onclick="openPage('Design', this, '#F1F1F1')">Design</button>
+        <button class="tablink" onclick="openPage('Implement', this, '#F1F1F1')">Implement</button>
         <div id="Requiment" class="tabcontent">
           <table class="table table-bordered">
             <thead>
               <tr>
-                <th scope="col" style="color: black"><b>STT</b></th>
-                <th scope="col" style="color: black">Yêu cầu</th>
+                <th scope="col" style="color: #000000" title="Số thứ tự"><b>STT</b></th>
+                <th scope="col" style="color: #000000">Yêu cầu</th>
 
               </tr>
             </thead>
@@ -238,6 +238,7 @@
         <!-- </div> -->
 
         <div id="Implement" class="tabcontent">
+          <body>
           <div role="tabpanel" class="tab-pane" id="week1">
             <div id="accordion">
               <div class="card">
@@ -247,12 +248,11 @@
                 </div>
                 <div id="collapseTwo" class="collapse show" data-parent="#accordion">
                   <div class="card-body">
-                    <br>
                     <div class="container-fluid">
                       <div class="row">
                         <div class="col-sm-8">
                           <input type="text" class="form-control form-control" style="height: 40px;"
-                            placeholder="Nhập thông tin tìm kiếm..." autofocus>
+                            placeholder="Nhập thông tin tìm kiếm">
                         </div>
 
                         <div class="col-sm-4">
@@ -266,15 +266,15 @@
                           </button>
                         </div>
                       </div>
-                      <br>
+                      
                       <table class="table table-bordered">
                         <thead>
                           <tr>
-                            <th data-toggle="tooltip" title="Số thứ tự">STT</th>
-                            <th>Giá SP</th>
-                            <th>Tên SP</th>
-                            <th>Danh mục</th>
-                            <th>Thao tác</th>
+                            <th data-toggle="tooltip" title="Số thứ tự"style="width: 50px;" >STT</th>
+                            <th style="width: 150px;">Giá sản phẩm</th>
+                            <th style="width: 350px;">Tên sản phẩm</th>
+                            <th style="width: 250px;">Danh mục</th>
+                            <th style="width: 200px;">Thao tác</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -283,7 +283,7 @@
                             <td>15.000đ</td>
                             <td>Móc Khóa Cao Su Ban Nhạc BTS - Gấu Koya</td>
                             <td>Đồ Chơi Mẹ Và Em Bé</td>
-                            <td>
+                            <td style="text-align: center;">
                               <button class="btn btn-lg btn-info mr-1" type="submit" value="" data-toggle="tooltip"
                                 title="Thông tin" style="padding-right: 10px; padding-left: 10px; width: 50px;
                                  height: 50px; background-color: #ffffff; border-color: #ffffff ">
@@ -306,7 +306,7 @@
                             <td>100.000đ</td>
                             <td>iPad WiFi 32GB New 2018 - Hàng Chính Hãng</td>
                             <td>Điện Thoại - Máy Tính Bảng</td>
-                            <td>
+                            <td style="text-align: center;">
                               <button class="btn btn-lg btn-info mr-1" type="submit" value="" data-toggle="tooltip"
                                 title="Thông tin" style="padding-right: 10px; padding-left: 10px; width: 50px;
                                    height: 50px; background-color: #ffffff; border-color: #ffffff ">
@@ -329,7 +329,7 @@
                             <td>200.000đ</td>
                             <td>Đồng Hồ Thông Minh Apple Watch Series 3 GPS Aluminum Case With Sport Band</td>
                             <td>Thiết Bị Số - Phụ Kiện Số</td>
-                            <td>
+                            <td style="text-align: center;">
                               <button class="btn btn-lg btn-info mr-1" type="submit" value="" data-toggle="tooltip"
                                 title="Thông tin" style="padding-right: 10px; padding-left: 10px; width: 50px;
                                    height: 50px; background-color: #ffffff; border-color: #ffffff ">
@@ -352,7 +352,7 @@
                             <td>120.000đ</td>
                             <td>Nón Bảo Hiểm 3/4 Đầu Napoli N099 (Size L)</td>
                             <td>Ô Tô - Xe Máy - Xe Đạp</td>
-                            <td>
+                            <td style="text-align: center;">
                               <button class="btn btn-lg btn-info mr-1" type="submit" value="" data-toggle="tooltip"
                                 title="Thông tin" style="padding-right: 10px; padding-left: 10px; width: 50px;
                                    height: 50px; background-color: #ffffff; border-color: #ffffff ">
@@ -390,10 +390,10 @@
                 </div>
                 <div id="collapsethree" class="collapse show" data-parent="#accordion">
                   <div class="card-body">
-                    <div class="container" style="margin-top: 70px; margin-left: 330px;">
-                      <h2 style="margin-left: 95px; font-weight: bold; font-size: 30px; 
+                    <div class="container" style="margin-top: 10px; margin-bottom: 10px; margin-left: 330px;">
+                      <h5 style="margin-left: 95px; font-weight: bold; font-size: 20px; 
                         text-transform: uppercase; color: #231C1C;">
-                        Thêm sản phẩm</h2>
+                        Thêm sản phẩm</h5>
                       <h5 style="font-weight: bold; color: #231C1C;">
                         <i class="fa fa-pencil"></i> Thông tin sản phẩm
                       </h5>
@@ -466,7 +466,7 @@
                 </div>
                 <div id="collapsefour" class="collapse show" data-parent="#accordion">
                   <div class="card-body">
-                    <div class="container" style="margin-top: 70px; margin-left: 330px;">
+                    <div class="container" style="margin-top: 5px; margin-bottom: 5px ; margin-left: 330px;">
                       <h2 style="margin-left: 70px; font-weight: bold; font-size: 30px;
                          text-transform: uppercase; color: #231C1C;">Cập
                         nhật sản phẩm</h2>
@@ -541,7 +541,7 @@
                 </div>
                 <div id="collapsefive" class="collapse show" data-parent="#accordion">
                   <div class="card-body">
-                    <h5>Hãy click vào button xóa để nhận được cảnh báo.</h5>
+                    <h5>Bạn có chắc chắn xoá sản phẩm ?</h5>
                     <!-- Button to Open the Modal -->
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"
                       style="background: red;">
@@ -583,6 +583,7 @@
             </div>
           </div>
         </div>
+      </body>
       </div>
       <script src="js/myScript.js"></script>
 </body>
