@@ -165,9 +165,10 @@ body {
   cursor: pointer;
   padding: 14px 17px;
   font-size: 17px;
-  width: 25%;
+  width: 200px;
   margin-left: 50px;
   background: transparent;
+  text-align: center;
   }
 
 .tablink:hover {
@@ -195,6 +196,7 @@ body {
 }
 
 #Requiment {background-color: #ffffff;}
+#Scenario {background-color: #ffffff;}
 #Design {background-color: #ffffff;}
 #Implement {background-color: #ffffff;}
 
@@ -219,37 +221,6 @@ body {
   display: table-row;
   position: relative;
   align-items: center;
-}
-
-
-.tablink-lab2 {
-  color: #179EFF;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 17px;
-  font-size: 17px;
-  width: 15%;
-  margin-left: 100px;
-  background: transparent;
-  }
-
-.tablink-lab2:hover {
-  padding: 10px;
-  padding: 14px 17px;
-  background-color:transparent;
-}
-.tablink-lab2:focus{
-  outline: none !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-  border-bottom: 2px solid #179EFF;
-}
-
-.tablink-lab2:active {
-	position:relative;
-	top:1px;
 }
 
 .carousel-caption {
@@ -288,9 +259,15 @@ body {
   outline: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border-bottom: 2px solid #179EFF;
+  border-bottom-color: transparent;
 }
-
+.nav-link-lab3{
+  display: block;
+  width: 10em;
+  text-align: center;
+  height: 3em;
+  padding-top: 10px;
+}
 .nav-tabs li a{
   float: left;
   border: none;
@@ -325,10 +302,8 @@ footer h4 {
 	color:#272727;
 }
 
-.active-page{
-  border-bottom:1px solid #179EFF;
+
+
+.nav-link-lab3.active, .show > .nav-link-lab3 {
+  background-color: #f1f1f1;
 }
-
-
-
-
