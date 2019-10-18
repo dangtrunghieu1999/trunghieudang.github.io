@@ -160,7 +160,6 @@ body {
 .tablink {
   color: #000000;
   float: left;
-  border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 17px;
@@ -169,7 +168,12 @@ body {
   margin-left: 50px;
   background: transparent;
   text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
   }
+
 
 .tablink:hover {
   padding: 10px;
@@ -255,19 +259,6 @@ body {
 	background:#179EFF;
 }
 
-.nav-item-lab3 a:focus {
-  outline: none !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-  border-bottom-color: transparent;
-}
-.nav-link-lab3{
-  display: block;
-  width: 10em;
-  text-align: center;
-  height: 3em;
-  padding-top: 10px;
-}
 .nav-tabs li a{
   float: left;
   border: none;
@@ -301,9 +292,47 @@ footer h4 {
 	font-weight:550;
 	color:#272727;
 }
-
-
-
 .nav-link-lab3.active, .show > .nav-link-lab3 {
-  background-color: #f1f1f1;
+  border-bottom: 2px solid #179EFF;
+}
+.nav-a-lab3.active, .show > .nav-a-lab3 {
+  border-bottom: 2px solid #179EFF;
+}
+
+.nav-a-lab3:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav-a-lab3{
+  border-bottom: 0.1px solid #6D6C6D;
+  display: block;
+  width: 10em;
+  text-align: center;
+  height: 3em;
+  padding-top: 10px;
+ 
+}
+
+.nav-item-lab3 a:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.nav-link-lab3{
+  border-bottom: 0.1px solid #6D6C6D;
+  display: block;
+  width: 10em;
+  text-align: center;
+  height: 3em;
+  padding-top: 10px;
+}
+
+.nav-link-lab3:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.active-page{
+  border-bottom: 1px solid #179EFF;
 }
