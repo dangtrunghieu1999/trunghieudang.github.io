@@ -171,7 +171,7 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-
+  
   }
 
 
@@ -335,4 +335,9 @@ footer h4 {
 
 .active-page{
   border-bottom: 1px solid #179EFF;
+}
+
+.button-lab3{
+  height: 37px;
+  border-radius: 7px
 }
