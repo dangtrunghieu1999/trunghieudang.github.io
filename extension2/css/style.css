@@ -75,19 +75,6 @@ body:after {
   -webkit-box-shadow: 20px 0 0 #000, -20px 0 0 #000;
   box-shadow: 20px 0 0 #000, -20px 0 0 #000; }
 
-
-/* Navbar */
-.site-navbar {
-  margin-bottom: 0px;
-  z-index: 1999;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  border-bottom: rgba(255, 255, 255, 0.7); }
-  .site-navbar .site-logo {
-    position: relative;
-    left: 0;
-    top: -5px; }
    
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }

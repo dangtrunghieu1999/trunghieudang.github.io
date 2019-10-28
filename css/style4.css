@@ -1,0 +1,959 @@
+.row-header {
+	height: 50px;
+}
+
+/* Bắt đầu dòng 1 header*/
+.row1-header .left-row {
+	margin-top: 10px;
+}
+
+.row1-header .left-row a {
+	display: block;
+	margin: 8px 0px 0px 27px;
+	height: 35px;
+	width: 102px;
+	background-image: url('https://zmp3-static.zadn.vn/skins/zmp3-v5.2/images/logo-mp-3.svg');
+	background-size: 100% 100%;
+}
+
+.row1-header .center-row {
+	height: 40px;
+	margin: 16px 0px 16px 0px;
+	padding: 0px;
+}
+
+.row1-header .center-row input {
+	font-size: 13px;
+	outline: none;
+	border:none;
+	width: 350px;
+}
+.row1-header .center-row .icon-search {
+	margin: 0px 10px 0px 10px;
+}
+
+.row1-header .right-row {
+	display: flex;
+	align-items: center;
+	width: 195px;
+	margin-left: 95px;
+	position: relative;
+}
+
+.row1-header .right-row img {
+	height: 40px;
+	widows: 40px;	
+	margin-right: 10px;
+	border-radius: 50%;
+}
+.row1-header .right-row a {
+	text-decoration: none;
+	line-height: 1.36;
+	/**/
+	display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #494953;
+    white-space: nowrap;
+    opacity: 0.8;
+}
+.row1-header .right-row i {
+	/*65*/
+	position: absolute;
+	right: 0px;
+}
+/* Kết thúc dòng 1 header*/
+
+/* Bắt đầu dòng 2 header*/
+.row2-header {
+	height: 55px;
+	background-color: #f7f7f7;
+}
+
+.navb {
+	height: 100%;
+	display: flex;
+	width: 100%;
+}
+
+.navb a {
+	font-family: sans-serif;
+	font-style: inherit;
+	color: rgba(146, 146, 157, 0.8);
+	font-size: 14px;
+	font-weight: 600;
+
+	text-decoration: none;
+}
+
+.navb-child-lab4 {
+
+	padding: 0px 0.5px 0px 0.5px;
+}
+
+.navb-child-lab4 a {
+	display: block;
+	padding: 20px 14px 12px 14px;
+
+}
+
+.navb-child-lab4 a:hover {
+	border-bottom: 2px solid #65509efa;
+	color: #65509efa;
+
+}
+
+.navb-child-lab4 table {
+	background-color: #FFF;
+}
+
+#home {
+	margin-left: 20px;
+}
+
+#home a {
+	color: rgb(101, 80, 158, 0.6);
+	border-bottom: 2px solid #65509efa;
+}
+
+#zingchart {
+	position: relative;
+}
+
+#table-zingchart {
+	width: 600px;
+	height: 126px;
+	position: absolute;
+	top: 100%;
+	border: 1px solid #f7f7f7;
+	opacity: 0;
+}
+#zingchart a:hover + #table-zingchart {
+	opacity: 1;
+}
+
+#top100 {
+	position: relative;
+}
+#table-top100 {
+	width: 600px;
+	height: 345px;
+	position: absolute;
+	top: 100%;
+	border: 1px solid #f7f7f7;
+	opacity: 0;
+}
+#top100 a:hover + #table-top100 {
+	opacity: 1;
+}
+
+#table-top100 #chau-a__top100 {
+	width: 150px;
+}
+
+#topic {
+	position: relative;
+}
+#table-topic {
+	width: 600px;
+	height: 345px;
+	position: absolute;
+	top: 100%;
+	border: 1px solid #f7f7f7;
+	opacity: 0;
+}
+#topic a:hover + #table-topic {
+	opacity: 1;
+}
+
+#video {
+	position: relative;
+}
+#table-video {
+	width: 600px;
+	height: 345px;
+	position: absolute;
+	top: 100%;
+	border: 1px solid #f7f7f7;
+	opacity: 0;
+}
+#video a:hover + #table-video {
+	opacity: 1;
+}
+#table-video #chau-a__video { 
+	width: 150px;
+}
+
+#album {
+	position: relative;
+}
+#table-album {
+	width: 600px;
+	height: 345px;
+	position: absolute;
+	top: 100%;
+	border: 1px solid #f7f7f7;
+	opacity: 0;
+}
+#album a:hover + #table-album {
+	opacity: 1;
+}
+#table-album #chau-a__album { 
+	width: 150px;
+}
+
+#singer {
+	position: relative;
+}
+#table-singer {
+	position: absolute;
+	top: 100%;
+	opacity: 0;
+	background-color: #FFF;
+	width: 120px;
+}
+#singer a:hover + #table-singer {
+	opacity: 1;
+}
+#table-singer td {
+	padding: 15px 0px 0px 14px;
+}
+
+td, th {
+	padding-left: 14px;
+}
+
+/*Kết thúc dòng 2 header*/
+/*Bắt đầu phần Banner*/
+.banner {
+	width: 100%;
+	height: 342px;
+	background-image: url('https://photo-zmp3.zadn.vn/banner/f/6/9/5/f6955e5f756d88f756011f72698d6878.jpg');
+}
+
+.top-list {
+	margin-right: 20px; 
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.song1 {
+	height: 55px;
+	width: 55px;
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/avatars/a/a/b/d/aabd06b213821214df66ec101d114c3d.jpg');
+	background-size: 100% 100%;
+	margin: 0px 10px 10px 0px;
+}
+
+.song2 {
+	height: 55px;
+	width: 55px;
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/avatars/4/e/0/6/4e064ae0b708b1c5535e1cc2630ec662.jpg');
+	background-size: 100% 100%;
+	margin: 0px 10px 10px 0px;
+}
+
+.song3 {
+	height: 55px;
+	width: 55px;
+	background-image: url(https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/avatars/2/6/c/b/26cbb27c21e6065c35bbcb942987ca0b.jpg);
+	background-size: 100% 100%;
+	margin: 0px 10px 10px 0px;
+}
+
+.song4 {
+	height: 55px;
+	width: 55px;
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/avatars/5/7/e/4/57e408088e1fa391b0215f63ade74c32.jpg'); 
+	background-size: 100% 100%;
+	margin: 0px 10px 10px 0px;
+}
+
+.song5 {
+	height: 55px;
+	width: 55px;
+	background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/avatars/2/3/0/d/230dd5d73edcab7785cc7120a5e52e64.jpg');
+	background-size: 100% 100%;
+	margin: 0px 10px 10px 0px;
+}
+/*Kết thúc phần Banner*/
+
+/*Bắt đầu phần content*/
+
+/*Bắt đầu phần Zingchart*/
+.container-zingchart {
+	border: 1px solid #80808030;
+	border-bottom: none;
+	height: 660px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	background-color: #ffffff;
+}
+
+.content {
+	border-bottom: 1px solid #80808030;
+	height: 100%;
+	width: 90%;
+}
+
+.zingchart .row {
+	margin: 0px;
+}
+
+/*Bắt đầu LEFT ZINGCHART*/
+
+.left-zingchart {
+	padding: 0px;
+	margin-top: 20px;
+	height: 410px;
+	background-color: grey;
+}
+.above-left-zingchart {
+	width: 100%;
+	height: 75px;
+	position: relative;
+}
+.above-left-zingchart .child-zingchart {
+	
+	font-size: 13px;
+	font-weight: 700;
+	position: absolute;
+	top: 0px;
+	left: -13px;
+	right: -15px;
+	padding: 2px 12px 2px 12px;
+	background: linear-gradient(90deg, rgba(50,59,181,0.7791491596638656) 0%, rgba(122,38,149,0.7343312324929971) 100%);
+	
+}
+.above-left-zingchart .child-zingchart a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.above-left-zingchart .listen-all {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: #65509e;
+	padding: 4.5px;
+	border-radius: 5px;
+
+}
+.above-left-zingchart .listen-all a {
+	margin-left: 2px;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+.above-left-zingchart .listen-all:hover {
+	background-color: white;
+}
+.above-left-zingchart .listen-all:hover a {
+	color: #65509e;
+}
+.above-left-zingchart .listen-all i {
+	padding: 0px 5px 0px 5px;
+}
+
+/*Bắt đầu RIGHT ZINGCHART*/
+
+.right-zingchart {
+	padding: 0px;
+	height: 410px;
+	border: 2px solid black;
+}
+
+.bellow-zingchart-week {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	height: 500px;
+}
+
+.right-zingchart {
+	padding: 10px;
+	margin: 20px 0px 0px 0px;
+	height: 410px;
+	background-color: #32323d;
+}
+
+.right-zingchart ul {
+	padding: 0px;
+}
+
+.right-zingchart li {
+	padding: 9px;
+	list-style-type: none;
+}
+.cart1, 
+.cart2, 
+.cart3, 
+.cart4, 
+.cart5 {
+  	display: flex;
+  	align-items: center;
+  	height: 51px;
+  	width: 265px;
+  	position: relative;
+}
+#li1 {
+	margin-top: 9px;
+}
+.right-zingchart li:hover {
+	border-radius: 5px;
+	background: linear-gradient(90deg, rgba(50,59,181,0.7791491596638656) 0%, rgba(50,59,181,0) 0%, rgba(185,185,196,0.7231267507002801) 0%, rgba(105,100,107,0.6783088235294117) 100%);
+}
+
+.right-zingchart .number p {
+	font-weight: 600;
+	font-size: 18px;
+  	margin: 0px;
+  	padding: 0px 15px 0px 15px;
+}
+
+.cart1 .number p, 
+.cart1 .view-percent p {
+	color: #4a90e2;
+	
+}
+.cart2 .number p, 
+.cart2 .view-percent p {
+	color: #50e3c2;
+}
+.cart3 .number p, 
+.cart3 .view-percent p {
+	color: #e4340d;
+}
+.cart4 .number p,
+.cart5 .number p
+{
+	color: #fcfcfc;
+	font-weight: 600;
+}
+
+
+.right-zingchart #name-song {
+  	font-family: sans-serif;
+  	color: white;
+  	font-size: 12px;
+  	font-weight: 600;
+  	margin-bottom: 0px;
+ 	 padding: 0px;
+}
+
+.right-zingchart #name-singer{
+  	font-size: 12px;
+  	color: #a0a0a0;
+	margin: 0px;
+	font-weight: 600;
+}
+
+.right-zingchart img {
+	border-radius: 5px;
+  	margin-right: 10px;
+}
+
+.right-zingchart .singer p {
+  	color: #4a90e2;
+  	margin: 0px;
+}
+
+.right-zingchart .view-percent p {
+  	position: absolute;
+  	font-size: 14px;
+  	top: 15px;
+  	right: 15px;
+  	margin: 0px;
+}
+
+#view-all {
+	margin-top: 8px;
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+}
+#view-all a {
+	font-size: 14px;
+	font-weight: 600;
+	color: #FFF;
+	text-decoration: none;
+}
+
+/*Bắt đầu ZINGCHART WEEK ABOVE*/
+
+.above-zingchart-week {
+	margin: 30px 0px 30px 0px;
+}
+.zingchart-week .container {
+	height: 100%;
+}
+.zingchart-week a {
+  	text-decoration: none;
+  	color: #32323dc9;
+  	font-size: 16px;
+  	font-weight: 700;
+  	width: 100%;
+}
+.zingchart-week i {
+	margin-left: 10px;
+}
+
+/*Bắt đầu ZINGCHARTWEEK BELLOW*/
+
+.bellow-zingchart-week .row {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+.box {
+	overflow: hidden;
+	border-radius: 5px;
+	width: 205px;
+  	padding: 0px;
+  	height: 120px;
+}
+
+.box img {
+	transition: 800ms;
+}
+
+.box img:hover {
+	transform: scale(1.05, 1.05);
+	transition: 800ms;
+}
+/*Kết thúc phần Zingchart*/
+
+/*Bắt đầu top 100*/
+.container-top100 {
+    border: 1px solid #80808030;
+    border-top: none;
+    border-bottom: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+}
+.container-top100 .top100 {
+    border-bottom: 1px solid #80808030;
+    height: 630px;
+    width: 90%;
+}
+.container-top100 .top100 .title-top100 {
+	margin: 20px 0px 20px 0px;
+}
+
+.container-top100 .top100 .title-top100 a {
+	color: #32323dc9;
+	font-size: 21px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.top100-row1, 
+.top100-row2 {
+  margin: 0px 0px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.album-top100:hover img{
+  transform: scale(1.05, 1.05);
+  transition: 800ms;
+}
+
+.album-top100 .cart {
+  overflow: hidden;
+  border-radius: 5px;
+  width: 205px;
+  padding: 0px;
+  height: 205px;
+}
+
+.album-top100 .cart img {
+  transition: 800ms;
+}
+.album-top100 .cart img {
+  width: 205px;
+  height: 205px;
+}
+
+.album-top100 .title {
+  margin-top: 8px;
+}
+
+.album-top100 .title a {
+  text-decoration: none;
+  color: #32323d;
+  font-weight: 500;
+  line-height: 1.56;
+}
+
+.album-top100 .title a:hover {
+  color: #b642e4;
+}
+/*Kết thúc phần TOP100*/
+
+/*Bắt đầu phần Bài Hát Mới*/
+
+.container-newsong {
+    border: 1px solid #80808030;
+    border-top: none;
+    border-bottom: none;
+    background-color: #fafafa;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container {
+    height: 400px;
+    width: 90%;
+}
+
+.sub-container .box-title {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  position: relative;
+}
+.box-title .new-song h4 {
+  font-weight: 700;
+  color: #32323dc9;
+}
+.box-title .listen-all {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: #65509e;
+  padding: 4.5px;
+  border-radius: 5px;
+
+}
+.box-title .listen-all a {
+  margin-left: 2px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+.box-title .listen-all:hover {
+  background-color: white;
+  box-shadow: 0.5px 1px 20px 0px #888888;
+}
+.box-title .listen-all:hover a {
+  color: #65509e;
+}
+.box-title .listen-all i {
+  padding: 0px 5px 0px 5px;
+}
+
+/*album*/
+
+.box-newsong .row {
+  margin: 0px;
+}
+.left-album, 
+.right-album {
+  padding: 0px;
+}
+
+.box-newsong ul {
+  width: 93%;
+  padding: 0px;
+}
+
+.box-newsong li {
+  height: 52px;
+  widows: 100%;
+  display: flex;
+  margin: 10px 0px 0px 0px;
+  align-items: center;
+  list-style-type: none;
+  position: relative;
+}
+.box-newsong a {
+  color: #32323dc9;
+  text-decoration: none;
+}
+
+.box-newsong .sub-cart {
+  height: 52px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.box-newsong li:hover .overlay {
+  opacity: 1;
+}
+.box-newsong li:hover .title p {
+  color: red;
+}
+
+.box-newsong .new-album .img {
+  height: 100%;
+  width: 48px;
+}
+
+.box-newsong .new-album {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.box-newsong a {
+  height: 87%;
+  width: 96%;
+  background-size: 100% 100%;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  margin-left: 9px;
+}
+
+.hon-ca-may-troi .img {
+  background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/f/a/d/7/fad79ac18dc0edc4a5dfac2ff62c6757.jpg');
+  background-size: 100% 100%;
+}
+
+.em-dep-nhat-dem-nay .img {
+  background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/c/0/b/3/c0b398f44795856809fe03f5f9cbcd5e.jpg');
+  background-size: 100% 100%;
+}
+.dung-luc-gap-nguoi .img {
+  background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/7/d/8/a/7d8adcd03147f884cc61c895d02b9d0a.jpg');
+  background-size: 100% 100%;
+}
+.oh-my-heart .img {
+  background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/0/a/7/0/0a708983822f575f300714eada3c7c10.jpg');
+  background-size: 100% 100%;
+}
+.de-thuong .img {
+  background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/e/e/8/4/ee844810fbb2e6013f416c00b1c74cd6.jpg');
+  background-size: 100% 100%;
+}
+.nhan-lai-nuoc-mat .img {
+  background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/e/f/0/8/ef084997b529409c95b39ee775c62a42.jpg');
+  background-size: 100% 100%;
+}
+.tinh-dep-la-tinh-buon .img {
+  background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/b/4/2/4/b42454fffd6b159a80ac228a82a7a990.jpg');
+  background-size: 100% 100%;
+}
+.yeu-mot-nguoi-khac .img {
+  background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/9/f/3/f/9f3f10115b303c08ee88b83c65ca8bcc.jpg');
+  background-size: 100% 100%;
+}
+.thang-hau .img {
+  background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/1/e/0/1/1e01190e6d52b69fbdf0be0a2387137c.jpg');
+  background-size: 100% 100%;
+}
+.anh-da-sai .img {
+  background-image: url('https://photo-resize-zmp3.zadn.vn/w94h94_jpeg/cover/5/9/b/4/59b4b73fe651bdd7e98dc04f9f8d492c.jpg');
+  background-size: 100% 100%;
+}
+
+.title-artist {
+  margin: 0px 0px 0px 15px;
+}
+
+.title-artist .title p {
+  margin: 0px;
+  font-weight: 600;
+}
+.artist{
+	margin-top: -20px;
+}
+
+.box-newsong .overlay {
+  border-radius: 3px;
+  display: flex;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #dededeb8;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  margin-top: -10px;
+}
+
+.overlay .icon-play {
+  margin-left: 9px;
+  height: 100%;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-play .child-icon-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.mv-icircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 270px;
+}
+.i-circle .fa-info-circle {
+  color: black;
+  margin-left: 36px;
+  margin-right: 36px;
+  font-size: 17px;
+}
+
+.mv-icircle .icon-mv {
+  height: 18px;
+  width: 18px;
+  background-image: url('1e8abc379d.png');
+  background-size: 100% 100%;
+}
+
+.mv-icircle .three-dots {
+  font-size: 17px;
+}
+
+/*Kết thúc phần Bài Hát Mới*/
+
+/*Bắt đầu chủ đề và thể loại*/
+
+.container-category {
+  background-color: #fafafa;
+  border: 1px solid #80808030;
+  border-top: none;
+  border-bottom: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.category {
+  position: relative;
+  background-color: white;
+  height: 405px;
+  width: 90%;
+}
+
+.category .title-category { 
+  display: flex;
+  margin: 10px 0px 20px 0px;
+}
+.category .title-category i {
+  margin-left: 10px;
+}
+
+.category .title-category a {
+  color: #32323dc9;
+  font-size: 21px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.category .right-title-category {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  right: 30px;
+}
+.category .right-title-category #selective {
+  color: #7330afc2;
+}
+.category .right-title-category a {
+  margin-left: 40px;
+  color: #b7b7b7;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.category .right-title-category a:hover {
+  color: #7330afc2;
+}
+
+.category-row1, 
+.category-row2 {
+  margin-bottom: 57px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.album-category {
+  position: relative;
+}
+
+.album-category .cart img {
+  width: 205px;
+  height: 205px;
+}
+
+.album-category:hover img {
+  transform: scale(1.05, 1.05);
+}
+
+.album-category .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(50,59,181,0.7791491596638656) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,0.03125) 0%, rgba(0,0,0,0.7371323529411764) 100%);
+}
+
+.album-category .overlay h4 {
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  top: 60%;
+  margin: 0px;
+  transition: 800ms;
+}
+
+.album-category .overlay:hover h4 {
+  top: 50%;
+}
+
+.album-category .cart {
+  overflow: hidden;
+  border-radius: 3px;
+  width: 205px;
+  padding: 0px;
+  height: 126px;
+}
+
+.album-category .cart img {
+  transition: 800ms;
+  width: 205px;
+  height: 205px;
+}
+
+  
+.footer {
+font-size: .85rem;
+text-align: center;
+padding: 1rem 0; }
+
+.logo_mp3{
+	border-radius: 50px;
+	width: 100px;
+}
